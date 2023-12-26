@@ -155,10 +155,35 @@ blockquote {
   text-decoration: none;
 }
 
-.main{
-  margin-left: 100px;
-  margin-right: 50px;
+/* Add this styling to your CSS file or style block in your React component */
+
+.main {
+  background-color: #3498db;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
 }
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Optional: Add some styles to make it more visually appealing */
+
+.main:before {
+  content: '\1F60E'; /* Smiling face emoji */
+  font-size: 3em;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
 
 .calc{
   display: flex;
