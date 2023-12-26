@@ -1,3 +1,5 @@
+/* Add this styling to your CSS file or style block in your React component */
+
 .App {
   text-align: center;
 }
@@ -5,6 +7,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  transition: transform 0.5s ease-in-out;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +16,31 @@
   }
 }
 
+.App-logo:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #2ecc71; /* Stylish green background color */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(14px + 2vmin); /* Larger font size for a modern look */
+  color: #fff; /* White text color */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
 }
 
+/* Add a subtle hover effect to the link */
 .App-link {
   color: #61dafb;
+  transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+  color: #45aaf2; /* Lighter blue color on hover */
 }
 
 @keyframes App-logo-spin {
@@ -36,6 +51,7 @@
     transform: rotate(360deg);
   }
 }
+
 
 /* Add this styling to your CSS file or style block in your React component */
 
