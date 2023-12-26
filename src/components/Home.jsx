@@ -5,7 +5,7 @@ const Home = () => {
     <>
     <div className='main'>
       <h1>HI, Welcome to our page</h1>
-      <p>best quotes to welcome a user on our website page </p>
+      <p>"Welcome to calculator app! Where every click brings you closer to a world of possibilities." </p>
     </div>
     </>
   )
