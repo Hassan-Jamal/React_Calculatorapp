@@ -60,28 +60,45 @@
 }
 
 
+/* Add this styling to your CSS file or style block in your React component */
 
 .keypad {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width : 300px;
+  grid-gap: 10px;
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
 }
 
 .btn {
-  height: 60px;
-  width: 100px;
-  border: 1px rgb(136, 119, 119) solid ;
-  background-color: rgb(207, 199, 199);
-  font-size: 17px;
-  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2em;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+  color: #333;
   cursor: pointer;
-  padding: 0px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #3498db;
+  color: #fff;
 }
 
 .btn-zero {
   grid-column: span 2;
-  width: 200px;
 }
+
+/* Optional: Add some styles to make it more visually appealing */
+
+.btn:active {
+  transform: scale(0.95); /* Add a slight scale effect on button press */
+}
+
+
 
 .obj{
   display: flex;
