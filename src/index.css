@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add this styling to your CSS file or style block in your React component */
+
+.quotes {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+blockquote {
+  font-size: 18px;
+  color: #333;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* Optional: Add some styles to make it more visually appealing */
+
+.quotes:before {
+  content: '\201C'; /* Left double quotation mark */
+  font-size: 3em;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.quotes:after {
+  content: '\201D'; /* Right double quotation mark */
+  font-size: 3em;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+}
+
