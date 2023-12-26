@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <div className='nav'>
-        <h1>Math Magician</h1>
+        <h1>Modern Math Corner</h1>
         <ul>
           <Link  className='ulitem' to='/'>Home</Link>
           <Link className='ulitem' to='calculator'>Calculator</Link>
